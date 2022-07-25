@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping TAGs</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: lightblue;
+            margin: 0px;
+        }
+        h1{
+            color: red;
+            text-align: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+        }
+        header{
+            background-color: rgb(0, 0, 0);
+            color: rgb(0, 0, 0);
+            padding: 10px 0px 0px 0px;
+            margin:0px;
+        }
+        nav{
+            background-color: rgb(43, 43, 36);
+            padding: 10px;
+            box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.418);;
+           
+        }
+        nav > a{
+            color: white;
+            text-decoration: none;
+            margin-right: 10px;
+            font-size: 1.2em;
+        }
+        nav > a:hover{
+            text-decoration: underline;
+            text-decoration-color: red;
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 6px;
+            box-shadow: 0px 1px 9px 0px rgba(0, 0, 0, 0.432);
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+        }
+        footer > p{
+            margin: 0px;
+        }
+        article{
+            padding: 5px;
+            background-color: lightgray;
+            margin-bottom: 10px;
+        }
+        article > aside{
+
+            background-color: rgb(174, 187, 201);
+        }
+        .assuntos{
+            background-color: rgb(43, 43, 36);
+            color: white;
+            width: 100px;
+            padding: 10px;
+            text-align: center;
+        }
+        .assuntos > p{
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Entreter News</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Series</a>
+            <a href="#">Filmes</a>
+            <a href="#">Animes</a>
+            <a href="#">Música</a>
+        </nav>
+    </header>
+    <main>
+        <section class="assuntos">
+            <p>Series</p>
+
+        </section>
+        <section id="series">
+            <article>
+                <h2>Stranger Things</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit amet quis dignissimos incidunt ullam quia modi nesciunt mollitia quo possimus voluptatem ad delectus laudantium sint, repellat minima? Maiores, illo ex? Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque fugiat omnis provident cupiditate excepturi voluptatibus molestiae et quod recusandae officia deleniti a dolorem quisquam distinctio eligendi, quam neque nostrum maxime? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores dolorem eligendi, aut optio explicabo magnam aperiam voluptas sint minus animi veniam dolor rerum accusamus cum eaque ipsam suscipit saepe nihil. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus reiciendis dolorem adipisci a ipsum beatae pariatur illum, reprehenderit laudantium tenetur. Delectus exercitationem odio in dolorem, quas sapiente voluptatum eveniet accusantium?</p>
+                <aside>
+                    <p>Escrito por Gustavo Rodrigues</p>
+                </aside>
+            </article>
+            <article>
+                <h2>Breaking Bad</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit amet quis dignissimos incidunt ullam quia modi nesciunt mollitia quo possimus voluptatem ad delectus laudantium sint, repellat minima? Maiores, illo ex? Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque fugiat omnis provident cupiditate excepturi voluptatibus molestiae et quod recusandae officia deleniti a dolorem quisquam distinctio eligendi, quam neque nostrum maxime? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores dolorem eligendi, aut optio explicabo magnam aperiam voluptas sint minus animi veniam dolor rerum accusamus cum eaque ipsam suscipit saepe nihil. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus reiciendis dolorem adipisci a ipsum beatae pariatur illum, reprehenderit laudantium tenetur. Delectus exercitationem odio in dolorem, quas sapiente voluptatum eveniet accusantium?</p>
+                <aside>
+                    <p>Escrito por Gustavo Rodrigues</p>
+                </aside>
+            </article>
+        </section>
+        <section class="assuntos">
+            <p>Jogos</p>
+
+        </section>
+        <section id="jogos">
+            <article>
+                <h2>League Of Legends</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit amet quis dignissimos incidunt ullam quia modi nesciunt mollitia quo possimus voluptatem ad delectus laudantium sint, repellat minima? Maiores, illo ex? Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque fugiat omnis provident cupiditate excepturi voluptatibus molestiae et quod recusandae officia deleniti a dolorem quisquam distinctio eligendi, quam neque nostrum maxime? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores dolorem eligendi, aut optio explicabo magnam aperiam voluptas sint minus animi veniam dolor rerum accusamus cum eaque ipsam suscipit saepe nihil. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus reiciendis dolorem adipisci a ipsum beatae pariatur illum, reprehenderit laudantium tenetur. Delectus exercitationem odio in dolorem, quas sapiente voluptatum eveniet accusantium?</p>
+                <aside>
+                    <p>Escrito por Gustavo Rodrigues</p>
+                </aside>
+            </article>
+            <article>
+                <h2>Zelda</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit amet quis dignissimos incidunt ullam quia modi nesciunt mollitia quo possimus voluptatem ad delectus laudantium sint, repellat minima? Maiores, illo ex? Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque fugiat omnis provident cupiditate excepturi voluptatibus molestiae et quod recusandae officia deleniti a dolorem quisquam distinctio eligendi, quam neque nostrum maxime? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores dolorem eligendi, aut optio explicabo magnam aperiam voluptas sint minus animi veniam dolor rerum accusamus cum eaque ipsam suscipit saepe nihil. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus reiciendis dolorem adipisci a ipsum beatae pariatur illum, reprehenderit laudantium tenetur. Delectus exercitationem odio in dolorem, quas sapiente voluptatum eveniet accusantium?</p>
+                <aside>
+                    <p>Escrito por Gustavo Rodrigues</p>
+                </aside>
+            </article>
+            <section class="assuntos">
+                <p>Animes</p>
+    
+            </section>
+        </section>
+        <section id="Animes">
+            <article>
+                <h2>One Piece</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit amet quis dignissimos incidunt ullam quia modi nesciunt mollitia quo possimus voluptatem ad delectus laudantium sint, repellat minima? Maiores, illo ex? Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque fugiat omnis provident cupiditate excepturi voluptatibus molestiae et quod recusandae officia deleniti a dolorem quisquam distinctio eligendi, quam neque nostrum maxime? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores dolorem eligendi, aut optio explicabo magnam aperiam voluptas sint minus animi veniam dolor rerum accusamus cum eaque ipsam suscipit saepe nihil. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus reiciendis dolorem adipisci a ipsum beatae pariatur illum, reprehenderit laudantium tenetur. Delectus exercitationem odio in dolorem, quas sapiente voluptatum eveniet accusantium?</p>
+                <aside>
+                    <p>Escrito por Gustavo Rodrigues</p>
+                </aside>
+            </article>
+            <article>
+                <h2>Naruto</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit amet quis dignissimos incidunt ullam quia modi nesciunt mollitia quo possimus voluptatem ad delectus laudantium sint, repellat minima? Maiores, illo ex? Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque fugiat omnis provident cupiditate excepturi voluptatibus molestiae et quod recusandae officia deleniti a dolorem quisquam distinctio eligendi, quam neque nostrum maxime? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores dolorem eligendi, aut optio explicabo magnam aperiam voluptas sint minus animi veniam dolor rerum accusamus cum eaque ipsam suscipit saepe nihil. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus reiciendis dolorem adipisci a ipsum beatae pariatur illum, reprehenderit laudantium tenetur. Delectus exercitationem odio in dolorem, quas sapiente voluptatum eveniet accusantium?</p>
+                <aside>
+                    <p>Escrito por Gustavo Rodrigues</p>
+                </aside>
+            </article>
+        </section>
+        <section class="assuntos">
+            <p>Musica</p>
+
+        </section>
+        <section id="musica">
+            <article>
+                <h2>Rock</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit amet quis dignissimos incidunt ullam quia modi nesciunt mollitia quo possimus voluptatem ad delectus laudantium sint, repellat minima? Maiores, illo ex? Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque fugiat omnis provident cupiditate excepturi voluptatibus molestiae et quod recusandae officia deleniti a dolorem quisquam distinctio eligendi, quam neque nostrum maxime? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores dolorem eligendi, aut optio explicabo magnam aperiam voluptas sint minus animi veniam dolor rerum accusamus cum eaque ipsam suscipit saepe nihil. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus reiciendis dolorem adipisci a ipsum beatae pariatur illum, reprehenderit laudantium tenetur. Delectus exercitationem odio in dolorem, quas sapiente voluptatum eveniet accusantium?</p>
+                <aside>
+                    <p>Escrito por Gustavo Rodrigues</p>
+                </aside>
+            </article>
+            <article>
+                <h2>Pagode</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit amet quis dignissimos incidunt ullam quia modi nesciunt mollitia quo possimus voluptatem ad delectus laudantium sint, repellat minima? Maiores, illo ex? Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque fugiat omnis provident cupiditate excepturi voluptatibus molestiae et quod recusandae officia deleniti a dolorem quisquam distinctio eligendi, quam neque nostrum maxime? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores dolorem eligendi, aut optio explicabo magnam aperiam voluptas sint minus animi veniam dolor rerum accusamus cum eaque ipsam suscipit saepe nihil. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus reiciendis dolorem adipisci a ipsum beatae pariatur illum, reprehenderit laudantium tenetur. Delectus exercitationem odio in dolorem, quas sapiente voluptatum eveniet accusantium?</p>
+                <aside>
+                    <p>Escrito por Gustavo Rodrigues</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <P>Desenvolvido por Gustavo</P>
+    </footer>
+</body>
+</html>
